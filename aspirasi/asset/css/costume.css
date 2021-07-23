@@ -1,0 +1,95 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@900&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+/* Navbar */
+.bg-navbar {
+    background-color: #283F9A;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding-top: 1rem;
+    background-color: #283F9A;
+    height: 210px;
+    color: #ffffff;
+}
+
+h1.title {
+    margin-top: 5rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.lead {
+    margin-top: -1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Form */
+.box {
+    background: #283F9A;
+    margin-bottom: 1rem;
+}
+
+.box h4 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: -3.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.form-uwaw {
+    background: #ffffff;
+    padding: 2rem 2rem;
+    margin-top: -6rem;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #283F9A;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 1rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin-top: -10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+    h1.title {
+        margin-top: 2rem;
+        font-weight: 900;
+        font-family: 'Roboto', sans-serif;
+    }
+}
